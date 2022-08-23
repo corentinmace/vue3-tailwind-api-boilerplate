@@ -1,13 +1,15 @@
 ![Logo](banner-readme.png)
 
 
-# Vue 3 + TailwindCSS Boilterplate
+# Vue 3 + TailwindCSS & API (Backend) Boilterplate
 
 A minimal Vue-Tailwind boilerplate with all the best practices
 
 ## Tech Stack
 
 **Client:** Vue3, Vite, Vue Router, TailwindCSS
+
+**Server:**
 
 
 ## Run Locally
@@ -17,16 +19,16 @@ A minimal Vue-Tailwind boilerplate with all the best practices
 Clone the project
 
 ```bash
-  git clone https://github.com/corentinmace/vue3-tailwind-boilerplate
+  git clone https://github.com/corentinmace/vue3-tailwind-api-boilerplate
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd vue3-tailwind-api-boilerplate
 ```
 
-Install frontend dependencies 
+Install backend dependencies 
 
 ```bash
   cd backend
@@ -64,7 +66,7 @@ Start the server
 To build this project run
 
 ```bash
-  npm run build
+  cd frontend && npm run build
 ```
 
 The output of the build will be in **/dist**
