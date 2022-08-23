@@ -26,7 +26,27 @@ Go to the project directory
   cd my-project
 ```
 
-Install dependencies
+Install frontend dependencies 
+
+```bash
+  cd backend
+```
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+Install frontend dependencies 
+
+```bash
+  cd frontend
+```
 
 ```bash
   npm install
