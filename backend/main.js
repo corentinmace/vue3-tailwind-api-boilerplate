@@ -12,10 +12,10 @@ const addresses = config.frontend_address
 
 app.use(function(req, res, next) {
     for (const address of addresses) {
-        res.header("Access-Control-Allow-Origin", address),
-        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept"),
-        next()
+        res.header("Access-Control-Allow-Origin", address)
     }
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept"),
+    next()
 })
 
 app.get("/", (req, res) => {
@@ -24,6 +24,10 @@ app.get("/", (req, res) => {
         routes.push(`${route.methods} - ${route.path}`)
     }
     res.status(200).send(routes)
+})
+
+app.get("/address", (req, res) => {
+    res.status(200).send(addresses)
 })
 
 app.listen(port, () => {
