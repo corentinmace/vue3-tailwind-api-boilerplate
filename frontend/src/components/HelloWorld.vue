@@ -10,12 +10,13 @@ const count = ref(0)
 
 <template>
   <div class="w-full h-screen flex justify-center flex-col items-center">
-    <p class="mb-5">This is a template using 
+    <p class="mb-2">This is a template using 
       <a href="https://vuejs.org/guide/introduction.html" class="font-bold">Vue 3</a> + 
       <a class="font-bold" href="https://vitejs.dev/">Vite</a>,
       <a class="font-bold" href="https://v3.router.vuejs.org/api/">Vue Router</a> & 
       <a class="font-bold" href="https://tailwindcss.com/">Tailwind CSS</a>
     </p>
+    <p class="mb-5">By default, your API is running on <a class="font-bold" target="_blank" href="http://localhost:3002">http://localhost:3002</a></p>
     <button class="uppercase" type="button" @click="count++">count is <span class="font-bold">{{ count }}</span></button>
   </div>
 </template>
