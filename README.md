@@ -7,9 +7,9 @@ A minimal Vue-Tailwind boilerplate with all the best practices
 
 ## Tech Stack
 
-**Client:** Vue3, Vite, Vue Router, TailwindCSS
+**Client:** Vue3, Vite, Vue Router, TailwindCSS, Axios
 
-**Server:**
+**Server:** Express
 
 
 ## Run Locally
